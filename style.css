@@ -1,0 +1,22 @@
+.star {
+    position: absolute;
+    width: 0;
+    height: 0;
+    
+	border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-bottom: 80px solid blue;
+    transform: translate(50%, 50%);
+    top: 0;
+    left: 0;
+}
+.star:after {
+    content: "";
+	position: absolute;
+    height: 0;
+	width: 0;
+    border-top: 80px solid blue;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    margin: 30px 0 0 -50px;
+}
